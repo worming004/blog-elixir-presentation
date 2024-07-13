@@ -6,9 +6,9 @@ defmodule Fibonacci do
   iex> assert {:error, _} = Fibonacci.fibo(0)
 
 
-  iex> assert 1 = Fibonacci.fibo(1)
-  iex> assert 1 = Fibonacci.fibo(2)
-  iex> assert 21 = Fibonacci.fibo(8)
+  iex> assert 1 == Fibonacci.fibo(1)
+  iex> assert 1 == Fibonacci.fibo(2)
+  iex> assert 21 == Fibonacci.fibo(8)
   """
   # when calling Fibonacci(value), it will find the first method definition that match with input. 
   # If value is 1 or lesser, it will match with first function.
